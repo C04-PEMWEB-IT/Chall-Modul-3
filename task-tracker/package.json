@@ -1,0 +1,14 @@
+{
+  "name": "task-tracker",
+  "version": "1.0.0",
+  "description": "CLI task tracker sederhana untuk demo harness",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/index.ts",
+    "check": "npx tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^5.9.3"
+  }
+}

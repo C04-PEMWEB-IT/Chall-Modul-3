@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "nodenext",
+    "moduleDetection": "force",
+    "strict": true,
+    "skipLibCheck": true,
+    "noUncheckedIndexedAccess": true,
+    "isolatedModules": true,
+    "allowImportingTsExtensions": true,
+    "types": ["node"]
+  },
+  "include": ["src"]
+}
